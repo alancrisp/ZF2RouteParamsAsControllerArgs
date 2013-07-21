@@ -37,7 +37,7 @@ Configure a route normally.
 Add desired route parameters to the controller action method.  Arguments are matched on parameter name and so can be declared in any order.
 
 ```php
-public function helloAction($firstName, $lastName)
+public function helloAction($firstName, $lastName = null)
 {
     // ...
 }
